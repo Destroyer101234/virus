@@ -2,7 +2,7 @@ const { exec } = require('child_process');
 const player = require('play-sound')(opts = {});
 
 function playMp3AndSpamGif() {
-    player.play('path/to/your/audio.mp3', (err) => {
+    player.play('Rick-Roll-Sound-Effect.mp3', (err) => {
         if (err) throw err;
     });
 
