@@ -6,7 +6,7 @@ function playMp3AndSpamGif() {
         if (err) throw err;
     });
 
-    const gifUrl = 'path/to/your/gif.gif';
+    const gifUrl = 'download.gif.gif';
     const spamInterval = setInterval(() => {
         const img = document.createElement('img');
         img.src = gifUrl;
